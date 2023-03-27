@@ -1,0 +1,47 @@
+//creacion de usuario de git
+    git config --global user.name ""Mi nombre"
+
+//Creacion de email de git
+    git config --global user.email ""Mi@email.com"
+
+//inicia un repositorio(proyecto) de git en la carpeta seleccionada
+    git init 
+
+//añade los cambios de los archivos al cache sin aun subirlos al repositorio.
+git add .
+
+// toma los cambios escritos en el index y que fueron guardados en la cache con el comando add. y guarda los cambios
+creando una rama que apunta a la nueva confirmacion de los cambios
+        git commit -m "Comit de los cambios realizados"
+
+//muestra el esatod de los archivos en el repositorio creando
+    git status
+
+//muestra los commits que se han hecho
+    git log
+
+// muestra los commits que se han hecho y sus estadisticas
+    git log --stat
+
+//muestra los commit que se han hecho de forma resumida y sus codigos reducidos para facilitar el checkout
+    git log --oneline
+
+//nos lleva al commit seleccionado pero si vamos a un commit anterior borra todos los commits que le siguen a esa version
+    git checkout (codigo del commit)
+
+//crear un archivo .gitignore para no subir los archivos seleccionados o las extensiones seleccionadas EJEMPLO
+    #IGNORA TODOS LOS ARCHIVOS DE TEXTO
+    *.txt
+
+//Listar las ramas existentes
+git branch
+
+
+// AVERIGUAR!!! git branch -a vs git checkout -b 
+
+
+//Para unir las ramas y los cambios de los archivos hechos en las diferentes ramas.
+git merge (nombre de la rama)
+
+//Eliminar una rama
+git branch -d (nombre de la rama)
