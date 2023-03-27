@@ -69,3 +69,5 @@ console.log(typeof autos);
 var vacio = '';
 console.log(vacio)
 console.log(typeof vacio)
+
+//cambio para ejercicio de git control de versiones #1

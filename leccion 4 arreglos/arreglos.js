@@ -21,3 +21,5 @@ for(i=0;i<autos.length; i++){
 //SABER SI ES UN ARREGLO O NO
 console.log(Array.isArray(autos));
 console.log(autos instanceof Array);
+
+//cambio para ejercicio de git control de versiones #2
